@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_9"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="640dp">
+
+
+        <Button
+            android:id="@+id/btnAvailableSlots"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSlot1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-108dp"
+            android:text="@string/available_slots"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="334dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/road"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <Button
+            android:id="@+id/btnSlot2"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignBottom="@+id/btnSlot1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="-1dp"
+            android:layout_marginEnd="89dp"
+            android:text="@string/slot_2"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="279dp"
+            tools:layout_editor_absoluteY="149dp" />
+
+        <Button
+            android:id="@+id/btnSlot3"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btnSlot1"
+            android:layout_marginTop="179dp"
+            android:text="@string/slot_3"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <Button
+            android:id="@+id/btnSlot9"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btnSlot3"
+            android:layout_marginBottom="238dp"
+            android:text="@string/slot_9"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="277dp"
+            tools:layout_editor_absoluteY="562dp" />
+
+        <Button
+            android:id="@+id/btnSlot4"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignStart="@+id/btnSlot2"
+            android:layout_alignTop="@+id/btnSlot3"
+            android:text="@string/slot_4"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <Button
+            android:id="@+id/btnSlot5"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btnSlot3"
+            android:layout_marginTop="241dp"
+            android:text="@string/slot_5"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="279dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <Button
+            android:id="@+id/btnSlot1"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginTop="125dp"
+            android:text="@string/slot_1"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <Button
+            android:id="@+id/btnSlot6"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_alignStart="@+id/btnSlot2"
+            android:layout_alignTop="@+id/btnSlot5"
+            android:text="@string/slot_6"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="387dp" />
+
+        <Button
+            android:id="@+id/btnSlot7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnSlot3"
+            android:layout_centerVertical="true"
+            android:text="@string/slot_7"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+        <Button
+            android:id="@+id/btnSlot8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnSlot2"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:text="@string/slot_8"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="506dp" />
+
+        <Button
+            android:id="@+id/btnSlot10"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_alignEnd="@+id/btnAvailableSlots"
+            android:layout_alignTop="@+id/btnSlot9"
+            android:layout_marginEnd="38dp"
+            android:text="Slot 10"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="506dp" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.AlertDialogLayout>

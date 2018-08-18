@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bridge"
+    tools:context="com.bryansinqadu.eparking_app.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar"/>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_person_white_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/register_first_name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:background="#6ef4f4f4"
+            android:textColor="#f16f7d"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="140dp" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6ef4f4f4"
+            android:drawableStart="@drawable/phone"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="#f16f7d"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db" />
+
+
+        <EditText
+            android:id="@+id/etGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6ef4f4f4"
+            android:drawableStart="@drawable/ic_person_white_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/register_gender"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="#f16f7d"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="204dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6ef4f4f4"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="#f16f7d"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db" />
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6ef4f4f4"
+            android:drawableStart="@drawable/ic_lock_white_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/register_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="#f16f7d"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="417dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db" />
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background_signup"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:text="@string/register_sign_up"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:onClick="btnRegister"
+            android:textSize="18sp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:padding="16dp"
+            android:onClick="tvLogin"
+            android:text="@string/register_already_registered"
+            android:textColor="#fff"
+            android:focusable="true" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

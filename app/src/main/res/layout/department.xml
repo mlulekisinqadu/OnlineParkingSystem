@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AlertDialogLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <RadioGroup
+                android:id="@+id/rbGroupDepartment"
+                android:layout_width="287dp"
+                android:layout_height="239dp">
+
+                <RadioButton
+                    android:id="@+id/rbComputerScience"
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Computer Science" />
+
+                <RadioButton
+                    android:id="@+id/rbMathematics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mathematics" />
+
+                <RadioButton
+                    android:id="@+id/rbGeography"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Geography" />
+
+                <RadioButton
+                    android:id="@+id/rbLibrary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Library" />
+
+                <RadioButton
+                    android:id="@+id/rbEconomics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Economics" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.AlertDialogLayout>

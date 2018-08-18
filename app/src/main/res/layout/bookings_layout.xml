@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/imageView"
+                android:text="@string/sinoyolo_wopula"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textviewbi"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvName"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/imageView"
+                android:text="@string/bookingiid"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <Button
+                android:id="@+id/btnAction"
+                android:layout_width="99dp"
+                android:layout_height="33dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/textviewdate"
+                android:layout_marginEnd="31dp"
+                android:text="@string/booking_action"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textviewemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvName"
+                android:layout_below="@+id/textviewbi"
+                android:text="@string/bookingemail" />
+
+            <TextView
+                android:id="@+id/textviewdepat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvName"
+                android:layout_below="@+id/textviewemail"
+                android:text="@string/bookingdepartment" />
+
+            <TextView
+                android:id="@+id/textviewslot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvName"
+                android:layout_below="@+id/textviewdepat"
+                android:text="@string/bookingslotno" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="104dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@+id/btnAction"
+                android:layout_toEndOf="@+id/textviewslot"
+                android:background="#ffd700"
+                android:paddingBottom="2dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:text="@string/pending"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnAction"
+                android:layout_alignStart="@+id/tvName"
+                android:text="@string/status"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textviewdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvName"
+                android:layout_below="@+id/textviewslot"
+                android:text="@string/date" />
+
+            <TextView
+                android:id="@+id/tvBookingId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvEmail"
+                android:layout_alignTop="@+id/textviewbi"
+                android:text="@string/_124hdvgd56" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvDepartment"
+                android:layout_below="@+id/textviewbi"
+                android:text="@string/sinoyolo_gmail_com" />
+
+            <TextView
+                android:id="@+id/tvDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textviewemail"
+                android:layout_marginStart="101dp"
+                android:text="@string/computer_science" />
+
+            <TextView
+                android:id="@+id/tvSlot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvEmail"
+                android:layout_below="@+id/textviewdepat"
+                android:text="@string/slot_1" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btnAction"
+                android:layout_alignStart="@+id/tvEmail"
+                android:text="@string/_10_08_2018" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btnAction"
+                android:layout_centerHorizontal="true"
+                android:text="@string/_10_00" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
