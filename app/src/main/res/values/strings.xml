@@ -131,6 +131,10 @@
     <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
     <string name="tap_on_mic">Tap on mic to speak</string>
     <string name="calender_title">Calendar</string>
+    <string name="messages_title">Messages</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="my_account_title">My Account</string>
+    <string name="edit_profile_title">Edit Profile</string>
 
 
 </resources>

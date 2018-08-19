@@ -75,23 +75,24 @@
             android:name=".ChatActivity"
             android:label="@string/chat_title" />
         <activity
+            android:parentActivityName=".HomeActivity"
             android:name=".CalendarActivity"
             android:label="@string/calender_title" />
         <activity
             android:parentActivityName=".MyAccountActivity"
-            android:label="Edit Profile"
+            android:label="@string/edit_profile_title"
             android:name=".EditProfileActivity" />
         <activity
             android:parentActivityName=".HomeActivity"
-            android:label="My Account"
+            android:label="@string/my_account_title"
             android:name=".MyAccountActivity" />
         <activity
-            android:label="Messages"
+            android:label="@string/messages_title"
             android:parentActivityName=".MyAccountActivity"
             android:name=".MessagesActivity" />
         <activity
             android:parentActivityName=".MyAccountActivity"
-            android:label="Notifications"
+            android:label="@string/notifications_title"
             android:name=".NotificationsActivity" />
         <activity android:name=".ChatIndexActivity" />
         <activity android:name=".ApiAIActivity"/>
