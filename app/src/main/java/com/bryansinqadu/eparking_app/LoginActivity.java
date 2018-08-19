@@ -67,8 +67,8 @@ public class LoginActivity extends AppCompatActivity implements TextWatcher,
             public void onClick(View view) {
                 if (Check()) {
                     validate(etEmail.getText().toString(), etPassword.getText().toString());
-                    startActivity(new Intent(LoginActivity.this,HomeActivity.class));
-                    Toast.makeText(LoginActivity.this,"Logged in successfully..",Toast.LENGTH_SHORT).show();
+
+
                 }else{
                     Toast.makeText(LoginActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
                 }
@@ -103,6 +103,9 @@ public class LoginActivity extends AppCompatActivity implements TextWatcher,
                 if (task.isSuccessful()) {
                     progressDialog.dismiss();
                    // checkEmailVerification();
+                    Toast.makeText(LoginActivity.this,"Logged in successfully..",Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+
 
                 }
             }

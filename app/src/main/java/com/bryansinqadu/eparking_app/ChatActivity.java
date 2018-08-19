@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -65,6 +66,12 @@ public class ChatActivity extends AppCompatActivity implements FirebaseAuth.Auth
                      onSendClick();
                  }
              });
+
+             Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+             setSupportActionBar(toolbar);
+             if (getSupportActionBar() != null) {
+                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+             }
          }
 
     @Override
